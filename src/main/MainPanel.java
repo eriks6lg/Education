@@ -1,47 +1,26 @@
-//package main;
-//import javax.swing.*;
-//import java.awt.*;
-//import java.awt.event.*;
-//import java.awt.font.*;
-//
-//public class MainPanel extends JPanel {
-//
-//    public MainPanel() {
-//
-//    }
-//
-//    public void toExercises() {
-//        repaint();
-//    }
-//
-//    public void paintComponent(Graphics g) {
-//        setBackground(new Color(0.8F, 0.8F, 1.0F));
-//        super.paintComponent(g);
-//        g.setColor(new Color(200,0, 0));
-//        g.setFont(new Font("Serif", Font.BOLD, 42));
-//        g.drawString("Matemaatika õpituba", 390, 100);
-//    }
-//
-//    public class MainListener extends MouseAdapter {
-//
-//        public void mousePressed(MouseEvent evt) {
-//        }
-//    }
-//
-////    public class MainButton extends JPanel {
-////
-////        String nimi;
-////
-////        public MainButton(String nimi) {
-////            setSize(50, 50);
-////            this.nimi = nimi;
-////        }
-////        public void paintComponent(Graphics g) {
-////            g. setColor(new Color(150, 150, 150));
-////            super.paintComponent(g);
-////            g. setColor(new Color(0, 0, 0));
-////            g.drawString(nimi, 10, 80);
-////        }
-//
-//
-//}
+package main;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.awt.font.*;
+
+public class MainPanel extends JPanel {
+
+    private String pealkiri;
+    private int suurus;
+
+
+    public MainPanel(String nimi, int suurus) {
+
+        this.pealkiri = nimi;
+        this.suurus = suurus;
+    }
+
+    public void paintComponent(Graphics g) {
+        setBackground(new Color(0.8F, 0.8F, 1.0F));
+        super.paintComponent(g);
+        g.setColor(Color.getHSBColor(0.78F,0.8F, 0.5F));
+        g.setFont(new Font("SANS_SERIF", Font.BOLD, 66));
+        g.drawString(pealkiri, suurus, 100);
+    }
+}
