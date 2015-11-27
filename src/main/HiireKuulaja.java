@@ -1,10 +1,6 @@
 package main;
 import java.awt.event.*;
-import java.awt.*;
 import javax.swing.*;
-import main.HiireKuulaja;
-
-
 
 public class HiireKuulaja extends MouseAdapter {
 
@@ -31,10 +27,13 @@ public class HiireKuulaja extends MouseAdapter {
             aken.setContentPane(new main.HarjutusteLeht(HarjutusteLeht.KUJUNDID));
             aken.setVisible(true);
         } else if (tekst.equals("Trigonomeetria")) {
+        JFrame aken = (JFrame) (((JButton) e.getSource()).getTopLevelAncestor());
+        aken.setContentPane(new main.HarjutusteLeht(HarjutusteLeht.TRIGONOMEETRIA));
+        aken.setVisible(true);
+        } else if (tekst.equals("Tagasi")) {
             JFrame aken = (JFrame) (((JButton) e.getSource()).getTopLevelAncestor());
-            aken.setContentPane(new main.HarjutusteLeht(HarjutusteLeht.TRIGONOMEETRIA));
+            aken.setContentPane(new main.Esileht());
             aken.setVisible(true);
         }
-
     }
 }

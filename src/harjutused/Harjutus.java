@@ -1,14 +1,12 @@
 package harjutused;
+import javax.swing.*;
 
+public abstract class Harjutus extends JPanel{
 
-public abstract class Harjutus {
-
+    public String harjutuseNimi;
     public String harjutuseKirjeldus;
     public int harjutuseJark;
     public boolean kasViimane;
 
-    public void kaivitaUlesanne() {
-
-    }
-
+    JButton
 }

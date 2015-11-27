@@ -11,8 +11,8 @@ public class VektUlesanded {
             eelVastus = "A + B = ";
             vastus = "(5;-1)";
         }
-
     }
+
     public class VektUlesanne2 extends harjutused.KusimusVastus{
 
         public VektUlesanne2 () {
