@@ -1,11 +1,11 @@
-package harjutused.vektorid;
+package harjutused.teemad;
 
 public class VektUlesanded {
 
     public class VektUlesanne1 extends harjutused.KusimusVastus{
 
         public VektUlesanne1 () {
-            kasViimane = false;
+            kasAvatud = true;
             harjutuseJark = 1;
             harjutuseKirjeldus = "On antud vektor A=(2;3) ja vektor B=(3;-4). Leida nende vektorite summa!";
             eelVastus = "A + B = ";

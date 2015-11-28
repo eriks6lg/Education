@@ -3,6 +3,8 @@ import javax.swing.*;
 
 public class Start {
 
+    public static String navigaator;
+
     public static void main(String[] args) {
 
         JFrame window = new JFrame("Matemaatika õpituba");
