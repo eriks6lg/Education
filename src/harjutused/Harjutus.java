@@ -8,9 +8,6 @@ import java.io.IOException;
 
 public abstract class Harjutus extends JPanel{
 
-    public String harjutuseNimi;
-    public String harjutuseKirjeldus;
-    public boolean kasViimane;
     public boolean kasAvatud;
     main.Nupp tagasi = new main.Nupp("Tagasi");
 
@@ -27,12 +24,5 @@ public abstract class Harjutus extends JPanel{
             Image pilt = (Image) ImageIO.read(getClass().getResourceAsStream("TuhiPilt.jpg"));
             g.drawImage(pilt, 0, 0, this);
         } catch (IOException e) {}
-    }
-
-    public void jargmineUlesanne() {
-
-    }
-    public boolean kasAvatud() {
-        return kasAvatud;
     }
 }

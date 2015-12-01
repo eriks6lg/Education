@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aec57b8f-537b-4245-a476-2eaf534b31e3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/VektUlesanded$VektUlesanne1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/VektUlesanded$VektUlesanne2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/VektUlesanded$VektUlesanne3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/VektUlesanded.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/harjutused/teemad/VektUlesanded.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/KusimusVastus.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/ValikVastus.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/harjutused/KusimusVastus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/harjutused/ValikVastus.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/Harjutus.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/Harjutus.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Arvutusulesanded$Ulesanne1.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Arvutusulesanded$Ulesanne1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Arvutusulesanded$Ulesanne2.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Arvutusulesanded$Ulesanne2.class" />
@@ -14,14 +13,56 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Arvutusulesanded$Ulesanne4.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Arvutusulesanded$Ulesanne4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Arvutusulesanded$Ulesanne5.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Arvutusulesanded$Ulesanne5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Arvutusulesanded$Ulesanne6.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Arvutusulesanded$Ulesanne6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Arvutusulesanded.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Arvutusulesanded.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Kujundid$Ulesanne1.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Kujundid$Ulesanne1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Kujundid$Ulesanne2.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Kujundid$Ulesanne2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Kujundid$Ulesanne3.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Kujundid$Ulesanne3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Kujundid$Ulesanne4.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Kujundid$Ulesanne4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Kujundid$Ulesanne5.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Kujundid$Ulesanne5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Kujundid$Ulesanne6.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Kujundid$Ulesanne6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Kujundid.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Kujundid.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Trigonomeetria$Ulesanne1.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Trigonomeetria$Ulesanne1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Trigonomeetria$Ulesanne2.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Trigonomeetria$Ulesanne2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Trigonomeetria$Ulesanne3.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Trigonomeetria$Ulesanne3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Trigonomeetria$Ulesanne4.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Trigonomeetria$Ulesanne4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Trigonomeetria$Ulesanne5.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Trigonomeetria$Ulesanne5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Trigonomeetria$Ulesanne6.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Trigonomeetria$Ulesanne6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Trigonomeetria.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Trigonomeetria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vektorid$Ulesanne1.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vektorid$Ulesanne1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vektorid$Ulesanne2.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vektorid$Ulesanne2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vektorid$Ulesanne3.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vektorid$Ulesanne3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vektorid$Ulesanne4.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vektorid$Ulesanne4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vektorid$Ulesanne5.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vektorid$Ulesanne5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vektorid$Ulesanne6.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vektorid$Ulesanne6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vektorid.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vektorid.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorrandid$Ulesanne1.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorrandid$Ulesanne1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorrandid$Ulesanne2.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorrandid$Ulesanne2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorrandid$Ulesanne3.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorrandid$Ulesanne3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorrandid$Ulesanne4.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorrandid$Ulesanne4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorrandid$Ulesanne5.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorrandid$Ulesanne5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorrandid$Ulesanne6.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorrandid$Ulesanne6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorrandid.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorrandid.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorratused$Ulesanne1.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorratused$Ulesanne1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorratused$Ulesanne2.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorratused$Ulesanne2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorratused$Ulesanne3.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorratused$Ulesanne3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorratused$Ulesanne4.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorratused$Ulesanne4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorratused$Ulesanne5.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorratused$Ulesanne5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorratused$Ulesanne6.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorratused$Ulesanne6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorratused.class" afterPath="$PROJECT_DIR$/out/production/Education/harjutused/teemad/Vorratused.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/main/HarjutusteLeht.class" afterPath="$PROJECT_DIR$/out/production/Education/main/HarjutusteLeht.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/main/HiireKuulaja.class" afterPath="$PROJECT_DIR$/out/production/Education/main/HiireKuulaja.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Education/main/Objektid.class" afterPath="$PROJECT_DIR$/out/production/Education/main/Objektid.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/harjutused/Harjutus.java" afterPath="$PROJECT_DIR$/src/harjutused/Harjutus.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/harjutused/teemad/Arvutusulesanded.java" afterPath="$PROJECT_DIR$/src/harjutused/teemad/Arvutusulesanded.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/harjutused/teemad/Kujundid.java" afterPath="$PROJECT_DIR$/src/harjutused/teemad/Kujundid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/harjutused/teemad/Trigonomeetria.java" afterPath="$PROJECT_DIR$/src/harjutused/teemad/Trigonomeetria.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/harjutused/teemad/Vektorid.java" afterPath="$PROJECT_DIR$/src/harjutused/teemad/Vektorid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/harjutused/teemad/Vorrandid.java" afterPath="$PROJECT_DIR$/src/harjutused/teemad/Vorrandid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/harjutused/teemad/Vorratused.java" afterPath="$PROJECT_DIR$/src/harjutused/teemad/Vorratused.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/HarjutusteLeht.java" afterPath="$PROJECT_DIR$/src/main/HarjutusteLeht.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/HiireKuulaja.java" afterPath="$PROJECT_DIR$/src/main/HiireKuulaja.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Start.java" afterPath="$PROJECT_DIR$/src/main/Start.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Objektid.java" afterPath="$PROJECT_DIR$/src/main/Objektid.java" />
     </list>
     <ignored path="Education.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,129 +84,7 @@
     <favorites_list name="Education" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Start.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Start.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HiireKuulaja.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/HiireKuulaja.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Objektid.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Objektid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vorrandid.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/Vorrandid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.017544">
-              <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
-              <folding>
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Arvutusulesanded.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/Arvutusulesanded.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="e#219#220#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vorratused.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/Vorratused.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
-              <folding>
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vektorid.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/Vektorid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.40351">
-              <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
-              <folding>
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Trigonomeetria.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/Trigonomeetria.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.701755">
-              <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
-              <folding>
-                <element signature="e#187#188#0" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HarjutusteLeht.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/HarjutusteLeht.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3324937">
-              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Kujundid.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/Kujundid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-              <folding>
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -193,16 +112,16 @@
         <option value="$PROJECT_DIR$/src/harjutused/vektorid/VektUlesanded.java" />
         <option value="$PROJECT_DIR$/src/harjutused/teemad/VektUlesanded.java" />
         <option value="$PROJECT_DIR$/src/main/Esileht.java" />
-        <option value="$PROJECT_DIR$/src/harjutused/Harjutus.java" />
-        <option value="$PROJECT_DIR$/src/harjutused/teemad/Arvutusulesanded.java" />
-        <option value="$PROJECT_DIR$/src/harjutused/teemad/Kujundid.java" />
+        <option value="$PROJECT_DIR$/src/main/Start.java" />
+        <option value="$PROJECT_DIR$/src/main/Objektid.java" />
+        <option value="$PROJECT_DIR$/src/main/HarjutusteLeht.java" />
         <option value="$PROJECT_DIR$/src/harjutused/teemad/Trigonomeetria.java" />
         <option value="$PROJECT_DIR$/src/harjutused/teemad/Vektorid.java" />
         <option value="$PROJECT_DIR$/src/harjutused/teemad/Vorrandid.java" />
         <option value="$PROJECT_DIR$/src/harjutused/teemad/Vorratused.java" />
-        <option value="$PROJECT_DIR$/src/main/Objektid.java" />
-        <option value="$PROJECT_DIR$/src/main/HarjutusteLeht.java" />
-        <option value="$PROJECT_DIR$/src/main/Start.java" />
+        <option value="$PROJECT_DIR$/src/harjutused/teemad/Kujundid.java" />
+        <option value="$PROJECT_DIR$/src/harjutused/teemad/Arvutusulesanded.java" />
+        <option value="$PROJECT_DIR$/src/harjutused/Harjutus.java" />
         <option value="$PROJECT_DIR$/src/main/HiireKuulaja.java" />
       </list>
     </option>
@@ -220,10 +139,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1040" />
-    <option name="height" value="744" />
+    <option name="x" value="-7" />
+    <option name="width" value="1036" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -250,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -301,6 +218,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pildid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Education" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Education" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="harjutused" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -329,8 +268,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -800,33 +740,36 @@
       <workItem from="1448896333811" duration="52000" />
       <workItem from="1448918854372" duration="2080000" />
       <workItem from="1448921290831" duration="6734000" />
+      <workItem from="1448952781153" duration="2282000" />
+      <workItem from="1448955783400" duration="14637000" />
+      <workItem from="1448977316462" duration="3811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33125000" />
+    <option name="totallyTimeSpent" value="53855000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1040" height="744" extended-state="7" />
+    <frame x="-7" y="0" width="1036" height="735" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.49607843" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.50390625" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49609375" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.272" sideWeight="0.50784314" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.272" sideWeight="0.49215686" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49215686" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -847,7 +790,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="7" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -855,12 +803,41 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/Esileht.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/harjutused/Harjutus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/Arvutusulesanded.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -869,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -877,9 +853,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -914,25 +888,7 @@
           <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/harjutused/KusimusVastus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/harjutused/ValikVastus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -941,7 +897,16 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -950,7 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,90 +922,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/HarjutusteLeht.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/TuhiPilt.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Esileht.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/harjutused/Harjutus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/harjutused/KusimusVastus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/harjutused/ValikVastus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/Arvutusulesanded.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#219#220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/HiireKuulaja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1076,25 +957,7 @@
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/harjutused/KusimusVastus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/harjutused/ValikVastus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,7 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1110,9 +972,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,7 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1158,7 +1017,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,136 +1027,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46260387">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1347" column="0" selection-start-line="1347" selection-start-column="0" selection-end-line="1347" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/javax/swing/JComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1032" column="0" selection-start-line="1032" selection-start-column="0" selection-end-line="1032" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/pildid/Vorratused.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/pildid/Vorrandid.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/TuhiPilt.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/harjutused/ValikVastus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/harjutused/KusimusVastus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Esileht.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/harjutused/Harjutus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Nupp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/Kujundid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/Trigonomeetria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.701755">
-          <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
-          <folding>
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/Vektorid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.40351">
-          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
-          <folding>
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/Vorrandid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.017544">
-          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
-          <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/Vorratused.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
-          <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/HiireKuulaja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/Arvutusulesanded.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#219#220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Objektid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1307,14 +1075,163 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Esileht.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/HiireKuulaja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.453704">
+          <caret line="208" column="14" selection-start-line="208" selection-start-column="14" selection-end-line="208" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Objektid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.43325526">
+          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/Vorrandid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07962529">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/Arvutusulesanded.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.43325526">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/harjutused/Harjutus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/Kujundid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07962529">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/Vektorid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07962529">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/Vorratused.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07962529">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/harjutused/teemad/Trigonomeetria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07962529">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/HarjutusteLeht.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3324937">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state vertical-scroll-proportion="5.008108">
+          <caret line="109" column="50" selection-start-line="109" selection-start-column="50" selection-end-line="109" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
