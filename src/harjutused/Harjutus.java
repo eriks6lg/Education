@@ -1,4 +1,6 @@
 package harjutused;
+import main.HarjutusteLeht;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -8,7 +10,6 @@ public abstract class Harjutus extends JPanel{
 
     public String harjutuseNimi;
     public String harjutuseKirjeldus;
-    public int harjutuseJark;
     public boolean kasViimane;
     public boolean kasAvatud;
     main.Nupp tagasi = new main.Nupp("Tagasi");
@@ -28,5 +29,10 @@ public abstract class Harjutus extends JPanel{
         } catch (IOException e) {}
     }
 
+    public void jargmineUlesanne() {
 
+    }
+    public boolean kasAvatud() {
+        return kasAvatud;
+    }
 }
