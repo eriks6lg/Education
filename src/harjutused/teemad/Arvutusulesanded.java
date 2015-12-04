@@ -8,6 +8,12 @@ public class Arvutusulesanded {
             super();
             kasAvatud = true;
             ulesandeNimi.setText("Ülesanne 1");
+            kusimus.setText("Arvuta midagi Arvuta midagi Arvuta midagi Arvuta midagi Arvuta midagi Arvuta midagi Arvuta midagi" +
+                    "Arvuta midagi Arvuta midagi Arvuta midagi");
+            eelvastuseTekst = "VASTUS:";
+            eelvastus.setText(eelvastuseTekst);
+            oigeVastus = "kapsas";
+            jargmHarjutus = main.Objektid.arvutusUlesanne2;
         }
     }
     public static class Ulesanne2 extends harjutused.Harjutus {
@@ -15,6 +21,9 @@ public class Arvutusulesanded {
         public Ulesanne2() {
             super();
             ulesandeNimi.setText("Ülesanne 2");
+            kasAvatud = true;
+
+
         }
 
     }
