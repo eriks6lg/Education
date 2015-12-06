@@ -14,7 +14,6 @@ public class Esileht extends JPanel {
     Nupp nupp6 = new Nupp("Vektorid");
 
     public Esileht() {
-        Start.navigaator = "Esileht";
         nupud.setLayout(new GridLayout(2, 3));
         nupud.add(nupp1);
         nupud.add(nupp2);

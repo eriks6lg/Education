@@ -1,7 +1,5 @@
 package main;
 
-import harjutused.teemad.Arvutusulesanded;
-
 import java.awt.event.*;
 import javax.swing.*;
 
@@ -13,202 +11,80 @@ public class HiireKuulaja extends MouseAdapter {
         if (((JButton) e.getSource()).isEnabled() == true) {
 
             if (tekst.equals("Arvutusülesanded")) {
-                Start.navigaator = "Arvutusülesanded";
-                Start.aken.setContentPane(Objektid.arvutusUlesanded);
+                Start.teema = HarjutusteLeht.ARVUTUSULESANDED;
+                Start.harjutuseMassiiv = Objektid.arvutusUlesandedMassiiv;
+                Start.aken.setContentPane(new HarjutusteLeht(HarjutusteLeht.ARVUTUSULESANDED));
                 Start.aken.setVisible(true);
             } else if (tekst.equals("Võrrandid")) {
-                Start.navigaator = "Võrrandid";
-                Start.aken.setContentPane(Objektid.vorrandid);
+                Start.teema = HarjutusteLeht.VORRANDID;
+                Start.harjutuseMassiiv = Objektid.vorrandUlesandedMassiv;
+                Start.aken.setContentPane(new HarjutusteLeht(HarjutusteLeht.VORRANDID));
                 Start.aken.setVisible(true);
             } else if (tekst.equals("Võrratused")) {
-                Start.navigaator = "Võrratused";
-                Start.aken.setContentPane(Objektid.vorratused);
+                Start.teema = HarjutusteLeht.VORRATUSED;
+                Start.harjutuseMassiiv = Objektid.vorratusUlesandedMassiv;
+                Start.aken.setContentPane(new HarjutusteLeht(HarjutusteLeht.VORRATUSED));
                 Start.aken.setVisible(true);
             } else if (tekst.equals("Kujundid")) {
-                Start.navigaator = "Kujundid";
-                Start.aken.setContentPane(Objektid.kujundid);
+                Start.teema = HarjutusteLeht.KUJUNDID;
+                Start.harjutuseMassiiv = Objektid.kujundUlesandedMassiv;
+                Start.aken.setContentPane(new HarjutusteLeht(HarjutusteLeht.KUJUNDID));
                 Start.aken.setVisible(true);
             } else if (tekst.equals("Trigonomeetria")) {
-                Start.navigaator = "Trigonomeetria";
-                Start.aken.setContentPane(Objektid.trigonomeetria);
+                Start.teema = HarjutusteLeht.TRIGONOMEETRIA;
+                Start.harjutuseMassiiv = Objektid.trigonomeetriaUlesandedMassiv;
+                Start.aken.setContentPane(new HarjutusteLeht(HarjutusteLeht.TRIGONOMEETRIA));
                 Start.aken.setVisible(true);
             } else if (tekst.equals("Vektorid")) {
-                Start.navigaator = "Vektorid";
-                Start.aken.setContentPane(Objektid.vektorid);
+                Start.teema = HarjutusteLeht.VEKTORID;
+                Start.harjutuseMassiiv = Objektid.vektorUlesandedMassiv;
+                Start.aken.setContentPane(new HarjutusteLeht(HarjutusteLeht.VEKTORID));
                 Start.aken.setVisible(true);
-            }
-            else if (Start.navigaator.equals("Kujundid") && tekst.equals("Ülesanne 1")) {
-                Start.navigaator = "Kujundülesanne";
-                Start.aken.setContentPane(Objektid.kujundUlesanne1);
+            } else if (tekst.equals("Ülesanne 1")) {
+                Start.aken.setContentPane(Start.harjutuseMassiiv[0]);
                 Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Kujundid") && tekst.equals("Ülesanne 2")) {
-                Start.navigaator = "Kujundülesanne";
-                Start.aken.setContentPane(Objektid.kujundUlesanne2);
+                Start.jark = 0;
+            } else if (tekst.equals("Ülesanne 2")) {
+                Start.aken.setContentPane(Start.harjutuseMassiiv[1]);
                 Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Kujundid") && tekst.equals("Ülesanne 3")) {
-                Start.navigaator = "Kujundülesanne";
-                Start.aken.setContentPane(Objektid.kujundUlesanne3);
+                Start.jark = 1;
+            } else if (tekst.equals("Ülesanne 3")) {
+                Start.aken.setContentPane(Start.harjutuseMassiiv[2]);
                 Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Kujundid") && tekst.equals("Ülesanne 4")) {
-                Start.navigaator = "Kujundülesanne";
-                Start.aken.setContentPane(Objektid.kujundUlesanne4);
+                Start.jark = 2;
+            } else if (tekst.equals("Ülesanne 4")) {
+                Start.aken.setContentPane(Start.harjutuseMassiiv[3]);
                 Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Kujundid") && tekst.equals("Ülesanne 5")) {
-                Start.navigaator = "Kujundülesanne";
-                Start.aken.setContentPane(Objektid.kujundUlesanne5);
+                Start.jark = 3;
+            } else if (tekst.equals("Ülesanne 5")) {
+                Start.aken.setContentPane(Start.harjutuseMassiiv[4]);
                 Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Kujundid") && tekst.equals("Ülesanne 6")) {
-                Start.navigaator = "Kujundülesanne";
-                Start.aken.setContentPane(Objektid.kujundUlesanne6);
+                Start.jark = 4;
+            } else if (tekst.equals("Ülesanne 6")) {
+                Start.aken.setContentPane(Start.harjutuseMassiiv[5]);
                 Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Kujundülesanne") && tekst.equals("Tagasi")) {
-                Start.navigaator = "Kujundid";
-                Start.aken.setContentPane(Objektid.kujundid);
+                Start.jark = 5;
+            } else if (tekst.equals("Esilehele")) {
+                Start.aken.setContentPane(new Esileht());
                 Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Arvutusülesanded") && tekst.equals("Ülesanne 1")) {
-                Start.navigaator = "Arvutusülesanne";
-                Start.aken.setContentPane(Objektid.arvutusUlesanne1);
+
+            } else if (tekst.equals("Tagasi") || tekst.equals("Ülesannete lehele") ) {
+                Start.aken.setContentPane(new HarjutusteLeht(Start.teema));
                 Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Arvutusülesanded") && tekst.equals("Ülesanne 2")) {
-                Start.navigaator = "Arvutusülesanne";
-                Start.aken.setContentPane(Objektid.arvutusUlesanne2);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Arvutusülesanded") && tekst.equals("Ülesanne 3")) {
-                Start.navigaator = "Arvutusülesanne";
-                Start.aken.setContentPane(Objektid.arvutusUlesanne3);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Arvutusülesanded") && tekst.equals("Ülesanne 4")) {
-                Start.navigaator = "Arvutusülesanne";
-                Start.aken.setContentPane(Objektid.arvutusUlesanne4);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Arvutusülesanded") && tekst.equals("Ülesanne 5")) {
-                Start.navigaator = "Arvutusülesanne";
-                Start.aken.setContentPane(Objektid.arvutusUlesanne5);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Arvutusülesanded") && tekst.equals("Ülesanne 6")) {
-                Start.navigaator = "Arvutusülesanne";
-                Start.aken.setContentPane(Objektid.arvutusUlesanne6);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Arvutusülesanne") && tekst.equals("Tagasi")) {
-                Start.navigaator = "Arvutusülesanded";
-                Start.aken.setContentPane(Objektid.arvutusUlesanded);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Trigonomeetria") && tekst.equals("Ülesanne 1")) {
-                Start.navigaator = "Trigonomeetriaülesanne";
-                Start.aken.setContentPane(Objektid.trigonomeetriaUlesanne1);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Trigonomeetria") && tekst.equals("Ülesanne 2")) {
-                Start.navigaator = "Trigonomeetriaülesanne";
-                Start.aken.setContentPane(Objektid.trigonomeetriaUlesanne2);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Trigonomeetria") && tekst.equals("Ülesanne 3")) {
-                Start.navigaator = "Trigonomeetriaülesanne";
-                Start.aken.setContentPane(Objektid.trigonomeetriaUlesanne3);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Trigonomeetria") && tekst.equals("Ülesanne 4")) {
-                Start.navigaator = "Trigonomeetriaülesanne";
-                Start.aken.setContentPane(Objektid.trigonomeetriaUlesanne4);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Trigonomeetria") && tekst.equals("Ülesanne 5")) {
-                Start.navigaator = "Trigonomeetriaülesanne";
-                Start.aken.setContentPane(Objektid.trigonomeetriaUlesanne5);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Trigonomeetria") && tekst.equals("Ülesanne 6")) {
-                Start.navigaator = "Trigonomeetriaülesanne";
-                Start.aken.setContentPane(Objektid.trigonomeetriaUlesanne6);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Trigonomeetriaülesanne") && tekst.equals("Tagasi")) {
-                Start.navigaator = "Trigonomeetria";
-                Start.aken.setContentPane(Objektid.trigonomeetria);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Võrrandid") && tekst.equals("Ülesanne 1")) {
-                Start.navigaator = "Võrrandülesanne";
-                Start.aken.setContentPane(Objektid.vorrandUlesanne1);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Võrrandid") && tekst.equals("Ülesanne 2")) {
-                Start.navigaator = "Võrrandülesanne";
-                Start.aken.setContentPane(Objektid.vorrandUlesanne2);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Võrrandid") && tekst.equals("Ülesanne 3")) {
-                Start.navigaator = "Võrrandülesanne";
-                Start.aken.setContentPane(Objektid.vorrandUlesanne3);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Võrrandid") && tekst.equals("Ülesanne 4")) {
-                Start.navigaator = "Võrrandülesanne";
-                Start.aken.setContentPane(Objektid.vorrandUlesanne4);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Võrrandid") && tekst.equals("Ülesanne 5")) {
-                Start.navigaator = "Võrrandülesanne";
-                Start.aken.setContentPane(Objektid.vorrandUlesanne5);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Võrrandid") && tekst.equals("Ülesanne 6")) {
-                Start.navigaator = "Võrrandülesanne";
-                Start.aken.setContentPane(Objektid.vorrandUlesanne6);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Võrrandülesanne") && tekst.equals("Tagasi")) {
-                Start.navigaator = "Võrrandid";
-                Start.aken.setContentPane(Objektid.vorrandid);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Võrratused") && tekst.equals("Ülesanne 1")) {
-                Start.navigaator = "Võrratusülesanne";
-                Start.aken.setContentPane(Objektid.vorratusUlesanne1);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Võrratused") && tekst.equals("Ülesanne 2")) {
-                Start.navigaator = "Võrratusülesanne";
-                Start.aken.setContentPane(Objektid.vorratusUlesanne2);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Võrratused") && tekst.equals("Ülesanne 3")) {
-                Start.navigaator = "Võrratusülesanne";
-                Start.aken.setContentPane(Objektid.vorratusUlesanne3);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Võrratused") && tekst.equals("Ülesanne 4")) {
-                Start.navigaator = "Võrratusülesanne";
-                Start.aken.setContentPane(Objektid.vorratusUlesanne4);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Võrratused") && tekst.equals("Ülesanne 5")) {
-                Start.navigaator = "Võrratusülesanne";
-                Start.aken.setContentPane(Objektid.vorratusUlesanne5);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Võrratused") && tekst.equals("Ülesanne 6")) {
-                Start.navigaator = "Võrratusülesanne";
-                Start.aken.setContentPane(Objektid.vorratusUlesanne6);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Võrratusülesanne") && tekst.equals("Tagasi")) {
-                Start.navigaator = "Võrratused";
-                Start.aken.setContentPane(Objektid.vorratused);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Vektorid") && tekst.equals("Ülesanne 1")) {
-                Start.navigaator = "Vektorülesanne";
-                Start.aken.setContentPane(Objektid.vektorUlesanne1);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Vektorid") && tekst.equals("Ülesanne 2")) {
-                Start.navigaator = "Vektorülesanne";
-                Start.aken.setContentPane(Objektid.vektorUlesanne2);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Vektorid") && tekst.equals("Ülesanne 3")) {
-                Start.navigaator = "Vektorülesanne";
-                Start.aken.setContentPane(Objektid.vektorUlesanne3);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Vektorid") && tekst.equals("Ülesanne 4")) {
-                Start.navigaator = "Vektorülesanne";
-                Start.aken.setContentPane(Objektid.vektorUlesanne4);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Vektorid") && tekst.equals("Ülesanne 5")) {
-                Start.navigaator = "Vektorülesanne";
-                Start.aken.setContentPane(Objektid.vektorUlesanne5);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Vektorid") && tekst.equals("Ülesanne 6")) {
-                Start.navigaator = "Vektorülesanne";
-                Start.aken.setContentPane(Objektid.vektorUlesanne6);
-                Start.aken.setVisible(true);
-            } else if (Start.navigaator.equals("Vektorülesanne") && tekst.equals("Tagasi")) {
-                Start.navigaator = "Vektorid";
-                Start.aken.setContentPane(Objektid.vektorid);
-                Start.aken.setVisible(true);
-            } else if (tekst.equals("Tagasi")) {
-                Start.navigaator = "Esileht";
-                Start.aken.setContentPane(Objektid.esileht);
-                Start.aken.setVisible(true);
+            } else if (tekst.equals("Järgmine ülesanne")) {
+                main.Start.aken.setContentPane(Start.harjutuseMassiiv[Start.jark+1]);
+                main.Start.aken.setVisible(true);
+                Start.harjutuseMassiiv[Start.jark].edasi.setVisible(false);
+                Start.harjutuseMassiiv[Start.jark].eelvastus.setText(Start.harjutuseMassiiv[Start.jark].eelvastuseTekst);
+                Start.harjutuseMassiiv[Start.jark].vastuseVali.setEnabled(true);
+                Start.harjutuseMassiiv[Start.jark].vastuseVali.setText("");
+                Start.harjutuseMassiiv[Start.jark+1].kasAvatud = true;
+                Start.jark ++;
+            } else if (tekst.equals("Proovi uuesti")) {
+                Start.harjutuseMassiiv[Start.jark].edasi.setVisible(false);
+                Start.harjutuseMassiiv[Start.jark].eelvastus.setText(Start.harjutuseMassiiv[Start.jark].eelvastuseTekst);
+                Start.harjutuseMassiiv[Start.jark].vastuseVali.setEnabled(true);
+                Start.harjutuseMassiiv[Start.jark].vastuseVali.setText("");
             }
         }
     }

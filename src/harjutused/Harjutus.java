@@ -1,7 +1,5 @@
 package harjutused;
 
-import main.Objektid;
-
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -11,6 +9,7 @@ import java.io.IOException;
 public class Harjutus extends JPanel {
 
     public boolean kasAvatud;
+    public boolean kasViimane;
     public JLabel ulesandeNimi = new JLabel();
     public JLabel kusimus = new JLabel();
     public JLabel eelvastus = new JLabel();
@@ -18,15 +17,13 @@ public class Harjutus extends JPanel {
     public JTextField vastuseVali = new JTextField();
     public String kasutajaVastus;
     public String oigeVastus;
-    public static Harjutus jargmHarjutus;
-    public Harjutus seeHarjutus = this;
+    public int harjutuseJark;
 
-
-    main.Nupp tagasi = new main.Nupp("Tagasi");
-    main.Nupp edasi = new main.Nupp("Järgmine ülesanne");
+    public main.Nupp tagasi = new main.Nupp("Tagasi");
+    public main.Nupp edasi = new main.Nupp("Järgmine ülesanne");
 
     public Harjutus() {
-        Harjutus.jargmHarjutus = main.Objektid.arvutusUlesanne2;
+
         tagasi.setSize(100, 50);
         tagasi.setLocation(0, 0);
         edasi.setSize(250, 50);
@@ -70,7 +67,10 @@ public class Harjutus extends JPanel {
                 if (kasutajaVastus.equals(oigeVastus)) {
                     edasi.setVisible(true);
                     eelvastus.setText("ÕIGE");
-                    edasi.setText("Järgmine ülesanne");
+                    if (kasViimane == false)
+                        edasi.setText("Järgmine ülesanne");
+                    else
+                        edasi.setText("Ülesannete lehele");
                 } else {
                     edasi.setText("Proovi uuesti");
                     edasi.setVisible(true);
@@ -78,36 +78,13 @@ public class Harjutus extends JPanel {
                 }
             }
         });
-        edasi.addMouseListener(new MouseAdapter() {
-            @Override
-            public void mousePressed(MouseEvent e) {
-                if (edasi.getText().equals("Järgmine ülesanne")) {
-                    main.Start.aken.setContentPane(Harjutus.jargmHarjutus);
-                    main.Start.aken.setVisible(true);
-                } else {
-                    edasi.setVisible(false);
-                    eelvastus.setText(seeHarjutus.eelvastuseTekst);
-                    vastuseVali.setEnabled(true);
-
-
-                }
-            }
-
-
-
-        });
-
-
     }
-
-
 
     public void paintComponent(Graphics g) {
         try {
-            Image pilt = (Image) ImageIO.read(getClass().getResourceAsStream("TuhiPilt1.jpg"));
+            Image pilt = (Image) ImageIO.read(getClass().getResourceAsStream("Taust.jpg"));
             g.drawImage(pilt, 0, 0, this);
         } catch (IOException e) {
         }
     }
-
 }

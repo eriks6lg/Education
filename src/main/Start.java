@@ -3,7 +3,10 @@ import javax.swing.*;
 
 public class Start {
 
-    public static String navigaator = "Esileht";
+
+    public static int teema;
+    public static int jark = 0;
+    public static harjutused.Harjutus[] harjutuseMassiiv;
 
     public static JFrame aken = new JFrame("Matemaatika õpituba");
 
