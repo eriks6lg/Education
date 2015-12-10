@@ -8,10 +8,10 @@ public class Trigonomeetria {
             super();
             kasAvatud = true;
             ulesandeNimi.setText("Ülesanne 1");
-            kusimus.setText("Siia tuleb küsimus");
+            kusimus.setText("Cos 30");
             eelvastuseTekst = "VASTUS:";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastus = 0.5;
         }
     }
     public static class Ulesanne2 extends Harjutus {
@@ -19,10 +19,10 @@ public class Trigonomeetria {
         public Ulesanne2() {
             super();
             ulesandeNimi.setText("Ülesanne 2");
-            kusimus.setText("Siia tuleb küsimus");
+            kusimus.setText("Sin/Cos");
             eelvastuseTekst = "VASTUS:";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastusSone = "tan";
         }
 
     }
@@ -31,10 +31,10 @@ public class Trigonomeetria {
         public Ulesanne3() {
             super();
             ulesandeNimi.setText("Ülesanne 3");
-            kusimus.setText("Siia tuleb küsimus");
+            kusimus.setText("<html>Sin<sup>2</sup>x + Cis<sup>2</sup>x</html>");
             eelvastuseTekst = "VASTUS:";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastus = 1;
         }
     }
     public static class Ulesanne4 extends Harjutus {
@@ -42,10 +42,10 @@ public class Trigonomeetria {
         public Ulesanne4() {
             super();
             ulesandeNimi.setText("Ülesanne 4");
-            kusimus.setText("Siia tuleb küsimus");
+            kusimus.setText("<html>&#8730;(kaatet1<sup>2</sup> + kaatet2<sup>2</sup>)</html>");
             eelvastuseTekst = "VASTUS:";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastusSone = "hüpotenuus";
         }
     }
     public static class Ulesanne5 extends Harjutus {
@@ -53,10 +53,10 @@ public class Trigonomeetria {
         public Ulesanne5() {
             super();
             ulesandeNimi.setText("Ülesanne 5");
-            kusimus.setText("Siia tuleb küsimus");
+            kusimus.setText("Sinusfunktsioon on paaris/paaritu");
             eelvastuseTekst = "VASTUS:";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastusSone = "paaritu";
         }
     }
     public static class Ulesanne6 extends Harjutus {
@@ -65,10 +65,10 @@ public class Trigonomeetria {
             super();
             kasViimane = true;
             ulesandeNimi.setText("Ülesanne 6");
-            kusimus.setText("Siia tuleb küsimus");
+            kusimus.setText("ArcCos(0.5)");
             eelvastuseTekst = "VASTUS:";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastus = 60;
         }
     }
 }

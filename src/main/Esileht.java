@@ -31,7 +31,7 @@ public class Esileht extends JPanel {
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
         try {
-            Image pilt = (Image)ImageIO.read(getClass().getResourceAsStream("pildid/Esileht.jpg"));
+            Image pilt = (Image)ImageIO.read(getClass().getResourceAsStream("pildid/Esileht1.jpg"));
             g.drawImage(pilt, 0, 0, this);
         } catch (IOException e) {}
     }

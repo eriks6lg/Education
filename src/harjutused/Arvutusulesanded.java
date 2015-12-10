@@ -8,10 +8,10 @@ public class Arvutusulesanded {
             super();
             kasAvatud = true;
             ulesandeNimi.setText("Ülesanne 1");
-            kusimus.setText("Siia tuleb küsimus");
+            kusimus.setText("2 + 2");
             eelvastuseTekst = "VASTUS:";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastus = 4;
         }
     }
     public static class Ulesanne2 extends Harjutus {
@@ -19,10 +19,10 @@ public class Arvutusulesanded {
         public Ulesanne2() {
             super();
             ulesandeNimi.setText("Ülesanne 2");
-            kusimus.setText("Siia tuleb küsimus");
+            kusimus.setText("12 : 4 + 2 X 1");
             eelvastuseTekst = "VASTUS:";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastus = 5;
         }
 
     }
@@ -31,10 +31,10 @@ public class Arvutusulesanded {
         public Ulesanne3() {
             super();
             ulesandeNimi.setText("Ülesanne 3");
-            kusimus.setText("Siia tuleb küsimus");
+            kusimus.setText("35 : (2 - 1 x (-5))");
             eelvastuseTekst = "VASTUS:";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastus = 5;
         }
     }
     public static class Ulesanne4 extends Harjutus {
@@ -42,10 +42,10 @@ public class Arvutusulesanded {
         public Ulesanne4() {
             super();
             ulesandeNimi.setText("Ülesanne 4");
-            kusimus.setText("Siia tuleb küsimus");
+            kusimus.setText("<html>2<sup>3</sup> - 5 X 0.5</html>");
             eelvastuseTekst = "VASTUS:";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastus = 5.5;
         }
     }
     public static class Ulesanne5 extends Harjutus {
@@ -53,10 +53,10 @@ public class Arvutusulesanded {
         public Ulesanne5() {
             super();
             ulesandeNimi.setText("Ülesanne 5");
-            kusimus.setText("Siia tuleb küsimus");
+            kusimus.setText("<html>|-3.9| + 4 X 0.5<sup>2</sup></html>");
             eelvastuseTekst = "VASTUS:";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastus = 4;
         }
     }
     public static class Ulesanne6 extends Harjutus {
@@ -65,10 +65,10 @@ public class Arvutusulesanded {
             super();
             kasViimane = true;
             ulesandeNimi.setText("Ülesanne 6");
-            kusimus.setText("Siia tuleb küsimus");
-            eelvastuseTekst = "VASTUS:";
+            kusimus.setText("x + 32 = 9");
+            eelvastuseTekst = "              x = ";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastus = -23;
         }
     }
 }

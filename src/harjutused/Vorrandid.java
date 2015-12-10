@@ -8,10 +8,10 @@ public class Vorrandid {
             super();
             kasAvatud = true;
             ulesandeNimi.setText("Ülesanne 1");
-            kusimus.setText("Siia tuleb küsimus");
-            eelvastuseTekst = "VASTUS:";
+            kusimus.setText("x(x+1)=0");
+            eelvastuseTekst = "x1=0, x2=";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastus = -1;
         }
     }
     public static class Ulesanne2 extends Harjutus {
@@ -19,10 +19,10 @@ public class Vorrandid {
         public Ulesanne2() {
             super();
             ulesandeNimi.setText("Ülesanne 2");
-            kusimus.setText("Siia tuleb küsimus");
-            eelvastuseTekst = "VASTUS:";
+            kusimus.setText("<html>x<sup>2</sup> - 5 + 4 = 0</html>");
+            eelvastuseTekst = "x1=4, x2=";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastus = 1;
         }
 
     }
@@ -30,11 +30,11 @@ public class Vorrandid {
 
         public Ulesanne3() {
             super();
-            ulesandeNimi.setText("Ülesanne 3");
-            kusimus.setText("Siia tuleb küsimus");
+            ulesandeNimi.setText("ln4 = 2");
+            kusimus.setText("Tõene või väär?");
             eelvastuseTekst = "VASTUS:";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastusSone = "väär";
         }
     }
     public static class Ulesanne4 extends Harjutus {
@@ -42,10 +42,10 @@ public class Vorrandid {
         public Ulesanne4() {
             super();
             ulesandeNimi.setText("Ülesanne 4");
-            kusimus.setText("Siia tuleb küsimus");
-            eelvastuseTekst = "VASTUS:";
+            kusimus.setText("x=3, y=3x. Antud tingimustel");
+            eelvastuseTekst = "y =";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastus = 9;
         }
     }
     public static class Ulesanne5 extends Harjutus {
@@ -53,10 +53,10 @@ public class Vorrandid {
         public Ulesanne5() {
             super();
             ulesandeNimi.setText("Ülesanne 5");
-            kusimus.setText("Siia tuleb küsimus");
-            eelvastuseTekst = "VASTUS:";
+            kusimus.setText("<html>3<sup>x</sup> = 27</html>");
+            eelvastuseTekst = "x =";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastus = 3;
         }
     }
     public static class Ulesanne6 extends Harjutus {
@@ -64,11 +64,11 @@ public class Vorrandid {
         public Ulesanne6() {
             super();
             kasViimane = true;
-            ulesandeNimi.setText("Ülesanne 6");
-            kusimus.setText("Siia tuleb küsimus");
-            eelvastuseTekst = "VASTUS:";
+            ulesandeNimi.setText("");
+            kusimus.setText("6 : 18 + 1 : 3 = x + 4 : 6");
+            eelvastuseTekst = "x =";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastus = 0;
         }
     }
 }

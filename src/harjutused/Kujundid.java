@@ -8,10 +8,11 @@ public class Kujundid {
             super();
             kasAvatud = true;
             ulesandeNimi.setText("Ülesanne 1");
-            kusimus.setText("Siia tuleb küsimus");
+            kusimus.setText("Mitu nurka on kuusnurgal?");
             eelvastuseTekst = "VASTUS:";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastus = 6;
+            oigeVastusSone = "kuus";
         }
     }
     public static class Ulesanne2 extends Harjutus {
@@ -19,10 +20,10 @@ public class Kujundid {
         public Ulesanne2() {
             super();
             ulesandeNimi.setText("Ülesanne 2");
-            kusimus.setText("Siia tuleb küsimus");
-            eelvastuseTekst = "VASTUS:";
+            kusimus.setText("<html>Ristküliku pikkus on 5,<br>laius on 8</html>");
+            eelvastuseTekst = "Pindala:";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastus = 40;
         }
 
     }
@@ -31,10 +32,11 @@ public class Kujundid {
         public Ulesanne3() {
             super();
             ulesandeNimi.setText("Ülesanne 3");
-            kusimus.setText("Siia tuleb küsimus");
-            eelvastuseTekst = "VASTUS:";
+            kusimus.setText("<html>Kolmnurga alus on 4,<br>" +
+                    "pindala on 24</html>");
+            eelvastuseTekst = "Kõrgus:";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastus = 12;
         }
     }
     public static class Ulesanne4 extends Harjutus {
@@ -42,10 +44,11 @@ public class Kujundid {
         public Ulesanne4() {
             super();
             ulesandeNimi.setText("Ülesanne 4");
-            kusimus.setText("Siia tuleb küsimus");
-            eelvastuseTekst = "VASTUS:";
+            kusimus.setText("Kuubi ruumala on 27");
+            eelvastuseTekst = "Külje pikkus:";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastus = 3;
+            oigeVastusSone = "kolm";
         }
     }
     public static class Ulesanne5 extends Harjutus {
@@ -53,10 +56,11 @@ public class Kujundid {
         public Ulesanne5() {
             super();
             ulesandeNimi.setText("Ülesanne 5");
-            kusimus.setText("Siia tuleb küsimus");
-            eelvastuseTekst = "VASTUS:";
+            kusimus.setText("<html>Võrdhaarse kolmnurga ümbermõõt<br> on 13, " +
+                    "haara pikkus on 3</html>");
+            eelvastuseTekst = "     Alus:";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastus = 7;
         }
     }
     public static class Ulesanne6 extends Harjutus {
@@ -65,10 +69,10 @@ public class Kujundid {
             super();
             kasViimane = true;
             ulesandeNimi.setText("Ülesanne 6");
-            kusimus.setText("Siia tuleb küsimus");
-            eelvastuseTekst = "VASTUS:";
+            kusimus.setText("<html>Ringi ümbermõõt on 4 \t&#960;</html>");
+            eelvastuseTekst = "Raadius:";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = "kapsas";
+            oigeVastus = 2;
         }
     }
 }

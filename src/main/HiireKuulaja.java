@@ -75,16 +75,22 @@ public class HiireKuulaja extends MouseAdapter {
                 main.Start.aken.setContentPane(Start.harjutuseMassiiv[Start.jark+1]);
                 main.Start.aken.setVisible(true);
                 Start.harjutuseMassiiv[Start.jark].edasi.setVisible(false);
+                Start.harjutuseMassiiv[Start.jark].oige.setVisible(false);
+                Start.harjutuseMassiiv[Start.jark].ulesandeNimi.setVisible(true);
+                Start.harjutuseMassiiv[Start.jark].kusimus.setVisible(true);
+                Start.harjutuseMassiiv[Start.jark].eelvastus.setVisible(true);
+                Start.harjutuseMassiiv[Start.jark].vastuseVali.setVisible(true);
                 Start.harjutuseMassiiv[Start.jark].eelvastus.setText(Start.harjutuseMassiiv[Start.jark].eelvastuseTekst);
                 Start.harjutuseMassiiv[Start.jark].vastuseVali.setEnabled(true);
                 Start.harjutuseMassiiv[Start.jark].vastuseVali.setText("");
                 Start.harjutuseMassiiv[Start.jark+1].kasAvatud = true;
                 Start.jark ++;
             } else if (tekst.equals("Proovi uuesti")) {
-                Start.harjutuseMassiiv[Start.jark].edasi.setVisible(false);
+                Start.harjutuseMassiiv[Start.jark].uuesti.setVisible(false);
                 Start.harjutuseMassiiv[Start.jark].eelvastus.setText(Start.harjutuseMassiiv[Start.jark].eelvastuseTekst);
                 Start.harjutuseMassiiv[Start.jark].vastuseVali.setEnabled(true);
                 Start.harjutuseMassiiv[Start.jark].vastuseVali.setText("");
+                Start.harjutuseMassiiv[Start.jark].vastuseVali.requestFocusInWindow();
             }
         }
     }
