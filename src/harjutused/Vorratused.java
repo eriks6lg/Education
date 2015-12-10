@@ -1,5 +1,9 @@
 package harjutused;
 
+/**
+ * Võrratusülesanded. Ülesanded individuaalselt
+ * sisemistes klassides.
+ */
 public class Vorratused {
 
     public static class Ulesanne1 extends Harjutus {
@@ -20,7 +24,7 @@ public class Vorratused {
             super();
             ulesandeNimi.setText("Ülesanne 2");
             kusimus.setText("x + 1 < 0");
-            eelvastuseTekst = "x < ";
+            eelvastuseTekst = "             x < ";
             eelvastus.setText(eelvastuseTekst);
             oigeVastus = -1;
         }
@@ -31,7 +35,7 @@ public class Vorratused {
         public Ulesanne3() {
             super();
             ulesandeNimi.setText("Ülesanne 3");
-            kusimus.setText("200x <= 40. x = 0.2. Tõene või väär?");
+            kusimus.setText("<html>200x <= 40. x = 0.2. <br>Tõene või väär?</html>");
             eelvastuseTekst = "VASTUS:";
             eelvastus.setText(eelvastuseTekst);
             oigeVastusSone = "tõene";
@@ -42,7 +46,7 @@ public class Vorratused {
         public Ulesanne4() {
             super();
             ulesandeNimi.setText("Ülesanne 4");
-            kusimus.setText("(x+1)(x-1) > 0 x = 1. Tõene või väär?");
+            kusimus.setText("<html>(x+1)(x-1) > 0 x = 1.<br>Tõene või väär?</html>");
             eelvastuseTekst = "VASTUS:";
             eelvastus.setText(eelvastuseTekst);
             oigeVastusSone = "väär";
@@ -53,7 +57,7 @@ public class Vorratused {
         public Ulesanne5() {
             super();
             ulesandeNimi.setText("Ülesanne 5");
-            kusimus.setText("4y >= 8. y = -2. Tõene või väär?");
+            kusimus.setText("<html>4y >= 8. y = -2.<br>Tõene või väär?</html>");
             eelvastuseTekst = "VASTUS:";
             eelvastus.setText(eelvastuseTekst);
             oigeVastusSone = "väär";
@@ -65,7 +69,7 @@ public class Vorratused {
             super();
             kasViimane = true;
             ulesandeNimi.setText("Ülesanne 6");
-            kusimus.setText("0<x<3, x = 3. Tõene või väär?");
+            kusimus.setText("<html>0<x<3, x = 3.<br>Tõene või väär?</html>");
             eelvastuseTekst = "VASTUS:";
             eelvastus.setText(eelvastuseTekst);
             oigeVastusSone = "väär";

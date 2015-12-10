@@ -1,5 +1,9 @@
 package harjutused;
 
+/**
+ * Trigonomeetriaülesanded. Ülesanded individuaalselt
+ * sisemistes klassides.
+ */
 public class Trigonomeetria {
 
     public static class Ulesanne1 extends Harjutus {
@@ -31,7 +35,7 @@ public class Trigonomeetria {
         public Ulesanne3() {
             super();
             ulesandeNimi.setText("Ülesanne 3");
-            kusimus.setText("<html>Sin<sup>2</sup>x + Cis<sup>2</sup>x</html>");
+            kusimus.setText("<html>Sin<sup>2</sup>x + Cos<sup>2</sup>x</html>");
             eelvastuseTekst = "VASTUS:";
             eelvastus.setText(eelvastuseTekst);
             oigeVastus = 1;
@@ -53,7 +57,7 @@ public class Trigonomeetria {
         public Ulesanne5() {
             super();
             ulesandeNimi.setText("Ülesanne 5");
-            kusimus.setText("Sinusfunktsioon on paaris/paaritu");
+            kusimus.setText("<html>Sin-funktsioon on <br>paaris/paaritu</html>");
             eelvastuseTekst = "VASTUS:";
             eelvastus.setText(eelvastuseTekst);
             oigeVastusSone = "paaritu";

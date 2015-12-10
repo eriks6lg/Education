@@ -1,5 +1,9 @@
 package harjutused;
 
+/**
+ * Kujundülesanded. Ülesanded individuaalselt
+ * sisemistes klassides.
+ */
 public class Kujundid {
 
     public static class Ulesanne1 extends Harjutus {
@@ -45,6 +49,8 @@ public class Kujundid {
             super();
             ulesandeNimi.setText("Ülesanne 4");
             kusimus.setText("Kuubi ruumala on 27");
+            eelvastus.setLocation(100, 410);
+            eelvastus.setSize(250, 70);
             eelvastuseTekst = "Külje pikkus:";
             eelvastus.setText(eelvastuseTekst);
             oigeVastus = 3;
@@ -56,7 +62,7 @@ public class Kujundid {
         public Ulesanne5() {
             super();
             ulesandeNimi.setText("Ülesanne 5");
-            kusimus.setText("<html>Võrdhaarse kolmnurga ümbermõõt<br> on 13, " +
+            kusimus.setText("<html>Võrdhaarse kolmnurga ümber-<br>mõõt on 13, " +
                     "haara pikkus on 3</html>");
             eelvastuseTekst = "     Alus:";
             eelvastus.setText(eelvastuseTekst);

@@ -1,5 +1,9 @@
 package harjutused;
 
+/**
+ * Arvutusülesanded. Ülesanded individuaalselt
+ * sisemistes klassides.
+ */
 public class Arvutusulesanded {
 
     public static class Ulesanne1 extends Harjutus {
@@ -12,6 +16,7 @@ public class Arvutusulesanded {
             eelvastuseTekst = "VASTUS:";
             eelvastus.setText(eelvastuseTekst);
             oigeVastus = 4;
+            oigeVastusSone = "neli";
         }
     }
     public static class Ulesanne2 extends Harjutus {
@@ -56,7 +61,7 @@ public class Arvutusulesanded {
             kusimus.setText("<html>|-3.9| + 4 X 0.5<sup>2</sup></html>");
             eelvastuseTekst = "VASTUS:";
             eelvastus.setText(eelvastuseTekst);
-            oigeVastus = 4;
+            oigeVastus = 4.9;
         }
     }
     public static class Ulesanne6 extends Harjutus {
