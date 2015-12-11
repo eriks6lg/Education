@@ -111,10 +111,9 @@ public abstract class Harjutus extends JPanel {
             public void actionPerformed(ActionEvent e) {
                 try {
                     kasutajaVastus = Double.parseDouble(vastuseVali.getText());
-                    kasutajaVastusSone = vastuseVali.getText().toLowerCase();
                     vastuseVali.setEnabled(false);
 
-                    if ((kasutajaVastus == oigeVastus) || (vastuseVali.getText().trim().equals(oigeVastusSone))) {
+                    if (kasutajaVastus == oigeVastus) {
                         Start.harjutuseMassiiv[Start.jark+1].kasAvatud = true;
                         oige.setVisible(true);
                         edasi.setVisible(true);
@@ -132,9 +131,26 @@ public abstract class Harjutus extends JPanel {
                         vastuseVali.setEnabled(false);
                     }
                 } catch (NumberFormatException exept) {
-                    uuesti.setVisible(true);
-                    eelvastus.setText("VALE");
+                    kasutajaVastusSone = vastuseVali.getText();
                     vastuseVali.setEnabled(false);
+
+                    if (kasutajaVastusSone.trim().equals(oigeVastusSone)) {
+                        Start.harjutuseMassiiv[Start.jark+1].kasAvatud = true;
+                        oige.setVisible(true);
+                        edasi.setVisible(true);
+                        eelvastus.setVisible(false);
+                        ulesandeNimi.setVisible(false);
+                        vastuseVali.setVisible(false);
+                        kusimus.setVisible(false);
+
+                        if (kasViimane == true) {
+                            edasi.setText("Ülesannetelehele");
+                        }
+                    } else {
+                        uuesti.setVisible(true);
+                        eelvastus.setText("VALE");
+                        vastuseVali.setEnabled(false);
+                    }
                 }
             }
         });
