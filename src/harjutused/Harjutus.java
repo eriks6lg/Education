@@ -114,7 +114,6 @@ public abstract class Harjutus extends JPanel {
                     vastuseVali.setEnabled(false);
 
                     if (kasutajaVastus == oigeVastus) {
-                        Start.harjutuseMassiiv[Start.jark+1].kasAvatud = true;
                         oige.setVisible(true);
                         edasi.setVisible(true);
                         eelvastus.setVisible(false);
@@ -124,6 +123,8 @@ public abstract class Harjutus extends JPanel {
 
                         if (kasViimane == true) {
                             edasi.setText("Ülesannetelehele");
+                        } else {
+                            Start.harjutuseMassiiv[Start.jark+1].kasAvatud = true;
                         }
                     } else {
                         uuesti.setVisible(true);
@@ -135,7 +136,7 @@ public abstract class Harjutus extends JPanel {
                     vastuseVali.setEnabled(false);
 
                     if (kasutajaVastusSone.trim().equals(oigeVastusSone)) {
-                        Start.harjutuseMassiiv[Start.jark+1].kasAvatud = true;
+
                         oige.setVisible(true);
                         edasi.setVisible(true);
                         eelvastus.setVisible(false);
@@ -145,6 +146,7 @@ public abstract class Harjutus extends JPanel {
 
                         if (kasViimane == true) {
                             edasi.setText("Ülesannetelehele");
+                            Start.harjutuseMassiiv[Start.jark+1].kasAvatud = true;
                         }
                     } else {
                         uuesti.setVisible(true);
